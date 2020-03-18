@@ -1,2 +1,3 @@
 # johnenriquez.github.io
-My personal blog
+
+[Live Link](https://johnenriquez.github.io/)
