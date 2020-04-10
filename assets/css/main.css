@@ -3379,7 +3379,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 10em 0 7.75em 0 ;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/dtsf.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.9), rgba(46, 49, 65, 0.9)), url("../../images/sf-skyline.jpg");
 		margin-bottom: -7em;
 	}
 
@@ -3470,7 +3470,7 @@ input, select, textarea {
 				margin-bottom: -6.5em;
 				background-color: #2e3141;
 				/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/dtsf.jpg");
+				/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/dtsf.jpg"); */
 				background-size: cover;
 				background-position: center, center;
 			}
