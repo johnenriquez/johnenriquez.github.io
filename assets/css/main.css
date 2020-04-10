@@ -3378,7 +3378,9 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 10em 0 4.75em 0 ;
+		padding: 10em 0 7.75em 0 ;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/dtsf.jpg");
+		margin-bottom: -7em;
 	}
 
 		#banner .inner {
@@ -3465,13 +3467,12 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto,
- cover;
-				background-position: center,
- center;
 				margin-bottom: -6.5em;
+				background-color: #2e3141;
+				/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/dtsf.jpg");
+				background-size: cover;
+				background-position: center, center;
 			}
 
 		}
@@ -4009,6 +4010,15 @@ input, select, textarea {
 
 /* Footer */
 
+	#footer {
+		margin-top: -6.5em;
+		padding-top: 6.5em;
+		background-color: #2e3141;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/stars.jpg");
+		background-size: auto, cover;
+		background-position: center, center;
+	}
+
 	#footer .inner {
 		padding: 5em 0 3em 0 ;
 		display: -moz-flex;
@@ -4072,12 +4082,6 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto,
- cover;
-			background-position: center,
- center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
